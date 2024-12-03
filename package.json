@@ -15,6 +15,7 @@
     "@mantine/dropzone": "^7.14.3",
     "@mantine/form": "^7.14.3",
     "@mantine/hooks": "^7.14.3",
+    "@tabler/icons-react": "^3.24.0",
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.8",
     "embla-carousel-react": "^7.1.0",
