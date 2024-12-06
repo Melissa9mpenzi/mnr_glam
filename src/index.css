@@ -2,9 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+
+
 /* Custom styles for Mantine components */
 .carousel-slide img {
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+img{
+  width: 400px;
+  height: 300px;
+}
