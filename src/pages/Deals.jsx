@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from '@mantine/carousel';
 import { Card, Image, Text, Button, Badge, Grid } from '@mantine/core';
 import { MantineProvider } from '@mantine/core';
@@ -106,7 +105,7 @@ const deals = [
 function Deals() {
   return (
     
-    
+    <div className="bg-accent">
     <div style={{ padding: '20px' }}>
       <MantineProvider>
       <h1>Deals Page</h1>
@@ -170,6 +169,7 @@ function Deals() {
         ))}
       </Grid>
     </MantineProvider>
+    </div>
     </div>
   );
 }

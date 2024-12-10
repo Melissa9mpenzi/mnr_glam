@@ -12,6 +12,7 @@ import DeliveryOptions from './pages/DeliveryOptions';
 import Deals from './pages/Deals';
 import Terms from './pages/Terms';
 import HelpCentre from './pages/HelpCentre';
+import Survey from './pages/Survey';
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
 
@@ -32,7 +33,8 @@ const App = () => {
           <Route path="/delivery" element={<DeliveryOptions />} />
           <Route path="/deals" element={<Deals />} />
           <Route path="/terms" element={<Terms />} />
-           <Route path="/help-center" element={<HelpCentre />} />
+          <Route path="/help-center" element={<HelpCentre />} />
+          <Route path="/survey" element={<Survey />} />
         </Routes>
       </main>
       <Footer /> 

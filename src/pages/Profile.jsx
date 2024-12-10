@@ -1,28 +1,3 @@
-// const Profile = () => {
-//   return (
-//     <div className="p-8">
-//       <h1 className="text-2xl font-bold">Your Profile</h1>
-//       <p className="mt-4">Welcome, [User]! Here’s your account information.</p>
-//       <ul className="mt-4 space-y-2">
-//         <li>Email: user@example.com</li>
-//         <li>Member since: January 2023</li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Profile;
-
-
-
-
-
-
-
-
-
-
-
 
 import { Button, Modal, TextInput, Avatar, MantineProvider } from '@mantine/core';
 import { useState } from 'react';
@@ -43,8 +18,9 @@ const Profile = () => {
   };
 
   return (
+    <div className="bg-accent">
     <MantineProvider withGlobalStyles withNormalizeCSS>
-      <div className="p-8 bg-gray-100 min-h-screen">
+      <div className="p-8 min-h-screen bg-accent">
         <div className="flex items-center space-x-4">
           <Avatar size="lg" radius="xl" className="bg-blue-500">
             {user.username.charAt(0).toUpperCase()}
@@ -70,6 +46,9 @@ const Profile = () => {
             Edit Profile
           </Button>
         </div>
+        
+        
+        <div className="bg-green-600">
 
         <Modal 
           opened={editModalOpen} 
@@ -100,8 +79,10 @@ const Profile = () => {
             </Button>
           </div>
         </Modal>
+        </div>
       </div>
     </MantineProvider>
+    </div>
   );
 };
 
