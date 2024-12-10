@@ -16,7 +16,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 bg-accent">
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-[#793b51]">Reach Out to Us – M&R Glam Fashion</h1>

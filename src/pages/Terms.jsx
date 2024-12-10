@@ -1,29 +1,6 @@
-// const Terms = () => {
-//   return (
-//     <div className="p-8">
-//       <h1 className="text-2xl font-bold">Terms and Conditions</h1>
-//       <p className="mt-4">
-//         Please review our terms and conditions carefully before using our services.
-//       </p>
-//     </div>
-//   );
-// };
-
-// export default Terms;
-
-
-
-
-
-
-
-
-
-
-
 const Terms = () => {
   return (
-    <div className="p-8">
+    <div className="p-8 bg-accent">
       <h1 className="text-2xl font-bold">Terms and Conditions</h1>
       <p className="mt-4">
         Welcome to M&R Glam. Please read these Terms and Conditions (Terms) carefully before using our website. By accessing or using our website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use our services.

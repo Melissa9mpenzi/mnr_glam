@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -7,25 +8,35 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-4">Customer Service</h3>
           <ul className="space-y-2">
-            <li><a href="/help-center" className="hover:text-gray-400">Help Center</a></li>
-            <li><a href="/terms" className="hover:text-gray-400">Terms and Conditions</a></li>
-            <li><a href="/feedback" className="hover:text-gray-400">Take our feedback survey</a></li>
+            
+            <li><Link to="/help-center" className="hover:text-gray-400">Help Center</Link></li>
+
+
+            <li><Link to="/terms" className="hover:text-gray-400">Terms and Conditions</Link></li>
+
+            <li><Link to="/feedback" className="hover:text-gray-400">Take our feedback survey</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="text-lg font-bold mb-4">Shopping with Us</h3>
+          
           <ul className="space-y-2">
-            <li><a href="/payments" className="hover:text-gray-400">Making Payments</a></li>
-            <li><a href="/delivery" className="hover:text-gray-400">Delivery Options</a></li>
-            <li><a href="/buyer-protection" className="hover:text-gray-400">Buyer Protection</a></li>
+            <li><Link to="/payments" className="hover:text-gray-400">Making Payments</Link></li>
+            
+            <li><Link to="/delivery" className="hover:text-gray-400">Delivery Options</Link></li>
+            
+            <li><Link to="/buyer-protection" className="hover:text-gray-400">Buyer Protection</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="text-lg font-bold mb-4">Collaborate with Us</h3>
           <ul className="space-y-2">
-            <li><a href="/partnerships" className="hover:text-gray-400">Partnerships</a></li>
-            <li><a href="/affiliates" className="hover:text-gray-400">Affiliate Program</a></li>
-            <li><a href="/seller-login" className="hover:text-gray-400">Seller Log In</a></li>
+            
+            <li><Link to="/partnerships" className="hover:text-gray-400">Partnerships</Link></li>
+            
+            <li><Link to="/affiliates" className="hover:text-gray-400">Affiliate Program</Link></li>
+           
+            <li><Link to="/seller-login" className="hover:text-gray-400">Seller Log In</Link></li>
           </ul>
         </div>
         <div>
