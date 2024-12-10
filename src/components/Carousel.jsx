@@ -1,17 +1,3 @@
-// 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import  { useRef } from "react";
 import { Carousel } from "@mantine/carousel";
 import { Card, Image, Button, Badge } from "@mantine/core";
