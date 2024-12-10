@@ -14,6 +14,7 @@ import Terms from './pages/Terms';
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
 
+
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -32,7 +33,7 @@ const App = () => {
           <Route path="/terms" element={<Terms />} />
         </Routes>
       </main>
-      <Footer />
+      <Footer /> 
     </div>
   );
 };

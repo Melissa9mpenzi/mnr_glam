@@ -1,7 +1,7 @@
 const Categories = () => {
   const categories = [
-    "Ladies' Clothing",
-    "Gents' Clothing",
+    "Ladies Clothing",
+    "Gents Clothing",
     "Shoes",
     "Jumpers",
     "Swimwear",
