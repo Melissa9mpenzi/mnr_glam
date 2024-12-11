@@ -15,6 +15,7 @@ import HelpCentre from './pages/HelpCentre';
 import Survey from './pages/Survey';
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
+import CheckoutPage from './pages/CheckoutPage';
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/terms" element={<Terms />} />
           <Route path="/help-center" element={<HelpCentre />} />
           <Route path="/survey" element={<Survey />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
       </main>
       <Footer /> 
