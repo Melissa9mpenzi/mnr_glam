@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MantineProvider, Container, Card, Title, Text, Group, Badge, Button } from '@mantine/core';
+import { MantineProvider, Container, Card, Title, Text, Badge, Button } from '@mantine/core';
 
 const DeliveryOptions = () => {
   const [selectedOption, setSelectedOption] = useState(null);
